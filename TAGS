@@ -1,0 +1,2982 @@
+
+advio/daytimetcpcli.c,11
+main(4,22
+
+advio/daytimeudpcli3.c,11
+main(4,22
+
+advio/daytimeudpcli4.c,11
+main(4,22
+
+advio/dgclitimeo.c,13
+dg_cli(4,23
+
+advio/dgclitimeo1.c,13
+dg_cli(4,23
+
+advio/dgclitimeo2.c,13
+dg_cli(4,23
+
+advio/dgclitimeo3.c,30
+dg_cli(6,51
+sig_alrm(32,628
+
+advio/dgechoaddr.c,56
+#undef	MAXLINE3,21
+#define	MAXLINE	4,36
+dg_echo(7,95
+
+advio/old/dgechoaddr.c,56
+#undef	MAXLINE3,18
+#define	MAXLINE	4,33
+dg_echo(7,92
+
+advio/old/recvfromflags.c,73
+recvfrom_flags(4,26
+#define	CONTROL_LEN	12,229
+Recvfrom_flags(67,1828
+
+advio/old/test01.c,39
+main(4,22
+#define	CONTROL_LEN	43,977
+
+advio/recvfromflags.c,110
+recvfrom_flags(6,122
+	  struct cmsghdr	cm;16,371
+								CMSG_SPACE(G_SPACE18,449
+Recvfrom_flags(86,2108
+
+advio/sig_chld_waitpid.c,15
+sig_chld(4,23
+
+advio/str_cli_kqueue04.c,14
+str_cli(4,23
+
+advio/str_cli_poll03.c,14
+str_cli(5,48
+
+advio/str_cli_select02.c,14
+str_cli(4,23
+
+advio/str_echo_stdio02.c,15
+str_echo(4,23
+
+advio/tcpcli01.c,12
+main(5,100
+
+advio/tcpcli02.c,11
+main(4,22
+
+advio/tcpcli03.c,11
+main(4,22
+
+advio/tcpcli04.c,11
+main(4,22
+
+advio/tcpserv02.c,11
+main(4,22
+
+advio/udpcli01.c,11
+main(4,22
+
+advio/udpcli02.c,11
+main(4,22
+
+advio/udpcli03.c,11
+main(4,22
+
+advio/udpserv01.c,11
+main(4,22
+
+advio/udpserv03.c,30
+main(7,93
+mydg_echo(85,2364
+
+advio/udpserv04.c,30
+main(6,64
+mydg_echo(85,2264
+
+bcast/dgclibcast1.c,36
+dg_cli(6,57
+recvfrom_alarm(44,932
+
+bcast/dgclibcast2.c,36
+dg_cli(6,57
+recvfrom_alarm(45,948
+
+bcast/dgclibcast3.c,37
+dg_cli(6,57
+recvfrom_alarm(50,1116
+
+bcast/dgclibcast4.c,37
+dg_cli(6,57
+recvfrom_alarm(55,1244
+
+bcast/dgclibcast5.c,68
+static sigjmp_buf	jmpbuf;5,73
+dg_cli(8,105
+recvfrom_alarm(41,874
+
+bcast/dgclibcast6.c,68
+static int	pipefd[pipefd4,51
+dg_cli(7,79
+recvfrom_alarm(59,1248
+
+bcast/udpcli01.c,11
+main(4,22
+
+bcast/udpcli02.c,11
+main(4,22
+
+bcast/udpcli03.c,11
+main(4,22
+
+bcast/udpcli04.c,11
+main(4,22
+
+bcast/udpcli05.c,11
+main(4,22
+
+bcast/udpcli06.c,11
+main(4,22
+
+debug/backlog.c,251
+#define	PORT	3,18
+#define	ADDR	4,37
+#define	MAXBACKLOG	5,63
+struct sockaddr_in	serv;8,104
+pid_t				pid;9,129
+int			pipefd[pipefd11,159
+#define	pfd	12,176
+#define	cfd	13,217
+main(20,335
+parent_alrm(41,673
+do_parent(47,755
+do_child(80,1611
+
+debug/qlen.c,251
+#define	PORT	3,21
+#define	ADDR	4,40
+#define	MAXBACKLOG	5,66
+struct sockaddr_in	serv;8,107
+pid_t				pid;9,132
+int			pipefd[pipefd11,162
+#define	pfd	12,179
+#define	cfd	13,220
+main(20,338
+parent_alrm(41,673
+do_parent(48,774
+do_child(90,1787
+
+debug/test01.c,11
+main(4,25
+
+debug/test02.c,11
+main(4,22
+
+debug/test03.c,11
+main(4,25
+
+debug/test04.c,26
+sig_alrm(4,23
+main(9,52
+
+debug/test05.c,76
+int		listenfd,3,21
+int		listenfd, connfd;3,21
+sig_poll(6,50
+main(17,269
+
+debug/test06.c,11
+main(4,25
+
+debug/unpxti.h,582
+#define	__unp_xti_h3,43
+#undef	INFTIM	19,276
+#define	T_INET_TCP	28,500
+#define	T_INET_UDP	33,599
+#define	T_INET_IP	36,653
+#define	T_TCP_NODELAY	39,709
+#define	T_TCP_MAXSEG	42,771
+#define	T_TCP_KEEPALIVE	45,834
+#define	T_UDP_CHECKSUM	48,902
+#define	T_IP_OPTIONS	51,966
+#define	T_IP_TOS	54,1022
+#define	T_IP_TTL	57,1071
+#define	T_IP_REUSEADDR	60,1126
+#define	T_IP_DONTROUTE	63,1192
+#define	T_IP_BROADCAST	67,1281
+# define	XTI_TCP	73,1425
+# define	XTI_UDP	74,1454
+# define	XTI_TCP	77,1514
+# define	XTI_UDP	78,1547
+# define	XTI_TCP	81,1621
+# define	XTI_UDP	82,1682
+
+icmpd/dgcli01.c,13
+dg_cli(5,51
+
+icmpd/icmpd.c,11
+main(5,45
+
+icmpd/icmpd.h,406
+struct client 3,23
+  int	connfd;4,39
+  int	family;5,97
+  int	lport;6,139
+} client[client8,233
+int				fd4,11,276
+int				fd4, fd6,11,276
+int				fd4, fd6, listenfd,11,276
+int				fd4, fd6, listenfd, maxi,11,276
+int				fd4, fd6, listenfd, maxi, maxfd,11,276
+int				fd4, fd6, listenfd, maxi, maxfd, nready;11,276
+fd_set			rset,12,324
+fd_set			rset, allset;12,324
+struct sockaddr_un	cliaddr;13,347
+
+icmpd/readable_conn.c,20
+readable_conn(5,53
+
+icmpd/readable_listen.c,22
+readable_listen(4,24
+
+icmpd/readable_v4.c,19
+readable_v4(9,159
+
+icmpd/readable_v6.c,20
+readable_v6(14,231
+
+icmpd/udpcli01.c,11
+main(4,22
+
+icmpd/unpicmpd.h,237
+#define	__unpicmp_h2,20
+#define	ICMPD_PATH	6,59
+struct icmpd_err 8,128
+  int				icmpd_errno;9,147
+  char				icmpd_type;10,211
+  char				icmpd_code;11,261
+  socklen_t			icmpd_len;12,311
+  struct sockaddr_storage	icmpd_dest;13,376
+
+inetd/daytimetcpsrv2.c,11
+main(5,40
+
+inetd/daytimetcpsrv3.c,11
+main(5,40
+
+intro/byteorder.c,52
+main(4,22
+	  short  s;7,61
+      char   c[c8,74
+
+intro/daytimetcpcli.c,11
+main(4,22
+
+intro/daytimetcpcli1.c,11
+main(4,22
+
+intro/daytimetcpcli2.c,11
+main(4,22
+
+intro/daytimetcpcli3.c,11
+main(4,22
+
+intro/daytimetcpcliv6.c,11
+main(4,22
+
+intro/daytimetcpsrv.c,11
+main(5,40
+
+intro/daytimetcpsrv1.c,11
+main(5,40
+
+intro/daytimetcpsrv2.c,11
+main(5,40
+
+intro/daytimetcpsrv3.c,11
+main(5,40
+
+intro/daytimetcpsrvv6.c,11
+main(5,40
+
+ioctl/lsif01.c,11
+main(6,43
+
+ioctl/lsif02.c,33
+main(10,130
+etherprint(81,1929
+
+ioctl/prifinfo.c,11
+main(4,25
+
+ioctl/prmac.c,11
+main(5,49
+
+ioctl/test1.c,11
+main(5,42
+
+ipopts/dgechoprintroute.c,14
+dg_echo(4,23
+
+ipopts/sigchldwaitpid.c,15
+sig_chld(4,23
+
+ipopts/sourceroute.c,165
+static u_char	*optr;optr6,102
+static u_char	*lenptr;lenptr7,164
+static int		ocnt;8,230
+inet_srcrt_init(11,286
+inet_srcrt_add(27,738
+inet_srcrt_print(51,1280
+
+ipopts/sourceroute6.c,24
+inet6_srcrt_print(4,23
+
+ipopts/tcpcli01.c,11
+main(4,22
+
+ipopts/tcpserv01.c,11
+main(4,22
+
+ipopts/udpcli01.c,11
+main(4,22
+
+ipopts/udpserv01.c,11
+main(4,22
+
+key/add.c,63
+salen(5,47
+prefix_all(24,330
+sadb_add(40,533
+main(133,3287
+
+key/dump.c,29
+sadb_dump(6,72
+main(43,866
+
+key/name.c,257
+struct idlist 4,43
+	int val;5,59
+	const char *name;name6,69
+static struct idlist satype[satype9,92
+static struct idlist ahalg[ahalg19,370
+static struct idlist espalg[espalg25,535
+idlistlookup(33,725
+getsatypebyname(43,881
+getsaalgbyname(49,954
+
+key/printsadbmsg.c,284
+get_sadb_msg_type(5,56
+get_sadb_satype(26,608
+get_auth_alg(43,1075
+get_encrypt_alg(74,1848
+get_sa_state(97,2437
+get_sadb_alg_type(111,2774
+sa_print(121,2939
+supported_print(136,3395
+lifetime_print(160,4044
+address_print(197,5037
+key_print(225,5797
+print_sadb_msg(242,6186
+
+key/register.c,33
+sadb_register(6,76
+main(48,985
+
+key/unp.h,1191
+#define	__unp_h5,92
+#undef	recv71,1797
+#undef	send72,1809
+#define	recv(73,1821
+#define	send(74,1865
+#define	INADDR_NONE	79,1961
+#define	SHUT_RD	83,2107
+#define	SHUT_WR	84,2153
+#define	SHUT_RDWR	85,2199
+#define	INET_ADDRSTRLEN	94,2407
+#define	INET6_ADDRSTRLEN	102,2691
+#define	bzero(111,3034
+#define	gethostbyname2(118,3202
+struct in_pktinfo 122,3318
+  struct in_addr	ipi_addr;123,3338
+  int				ipi_ifindex;124,3388
+#define	CMSG_LEN(135,3764
+#define	CMSG_SPACE(139,3873
+# define	SUN_LEN(147,4159
+#define AF_LOCAL	154,4386
+#define PF_LOCAL	157,4435
+#define INFTIM 165,4775
+#define	INFTIM_UNPH	168,4875
+#define	LISTENQ	174,5093
+#define	MAXLINE	177,5177
+#define	MAXSOCKADDR 178,5226
+#define	BUFFSIZE	179,5291
+#define	SERV_PORT	182,5419
+#define	SERV_PORT_STR	183,5479
+#define	UNIXSTR_PATH	184,5543
+#define	UNIXDG_PATH	185,5614
+#define	SA	195,6104
+#define	FILE_MODE	197,6132
+#define	DIR_MODE	199,6247
+typedef	void	Sigfunc(202,6358
+#define	min(204,6412
+#define	max(205,6453
+struct if_nameindex 212,6595
+  unsigned int   if_index;213,6617
+  char          *if_name;if_name214,6661
+struct timespec 222,6840
+  time_t	tv_sec;223,6858
+  long		tv_nsec;224,6890
+
+lib/addrinfo.h,878
+#define	__addrinfo_h2,21
+struct addrinfo 10,188
+  int		ai_flags;11,206
+  int		ai_family;12,256
+  int		ai_socktype;13,289
+  int		ai_protocol;14,325
+  size_t	ai_addrlen;15,382
+  char		*ai_canonname;ai_canonname16,429
+  struct sockaddr	*ai_addr;ai_addr17,483
+  struct addrinfo	*ai_next;ai_next18,532
+#define	AI_PASSIVE	22,637
+#define	AI_CANONNAME	23,707
+#define	NI_MAXHOST	26,797
+#define	NI_MAXSERV	27,851
+#define	NI_NOFQDN	29,910
+#define	NI_NUMERICHOST 30,960
+#define	NI_NAMEREQD	31,1025
+#define	NI_NUMERICSERV 32,1093
+#define	NI_DGRAM	33,1162
+#define	EAI_ADDRFAMILY	36,1253
+#define	EAI_AGAIN	37,1323
+#define	EAI_BADFLAGS	38,1388
+#define	EAI_FAIL	39,1445
+#define	EAI_FAMILY	40,1515
+#define	EAI_MEMORY	41,1568
+#define	EAI_NODATA	42,1623
+#define	EAI_NONAME	43,1684
+#define	EAI_SERVICE	44,1753
+#define	EAI_SOCKTYPE	45,1821
+#define	EAI_SYSTEM	46,1877
+
+lib/connect_nonb.c,19
+connect_nonb(4,22
+
+lib/connect_timeo.c,64
+connect_timeo(7,83
+connect_alarm(28,548
+Connect_timeo(35,652
+
+lib/daemon_inetd.c,19
+daemon_inetd(7,93
+
+lib/daemon_init.c,39
+#define	MAXFD	4,38
+daemon_init(9,110
+
+lib/dg_cli.c,13
+dg_cli(4,23
+
+lib/dg_echo.c,14
+dg_echo(4,23
+
+lib/error.c,125
+int		daemon_proc;6,105
+err_ret(14,294
+err_sys(28,497
+err_dump(42,712
+err_msg(57,985
+err_quit(71,1190
+err_doit(85,1414
+
+lib/family_to_level.c,46
+family_to_level(4,22
+Family_to_level(19,198
+
+lib/get_ifi_info.c,66
+get_ifi_info(5,67
+free_ifi_info(169,4867
+Get_ifi_info(187,5325
+
+lib/gf_time.c,14
+gf_time(5,43
+
+lib/host_serv.c,34
+host_serv(5,60
+Host_serv(30,876
+
+lib/hstrerror.c,18
+hstrerror(12,296
+
+lib/if_indextoname.c,46
+if_indextoname(10,242
+If_indextoname(16,316
+
+lib/if_nameindex.c,67
+if_nameindex(10,257
+if_freenameindex(16,301
+If_nameindex(21,371
+
+lib/if_nametoindex.c,46
+if_nametoindex(10,248
+If_nametoindex(16,311
+
+lib/in6addr_any.c,40
+const struct in6_addr in6addr_any;4,30
+
+lib/mcast_get_if.c,40
+mcast_get_if(4,22
+Mcast_get_if(32,426
+
+lib/mcast_get_loop.c,44
+mcast_get_loop(4,22
+Mcast_get_loop(38,549
+
+lib/mcast_get_ttl.c,42
+mcast_get_ttl(4,22
+Mcast_get_ttl(38,538
+
+lib/mcast_join.c,258
+mcast_join(6,68
+#define	IPV6_JOIN_GROUP	65,1619
+Mcast_join(98,2290
+mcast_join_source_group(106,2485
+Mcast_join_source_group(176,4344
+mcast_block_source(186,4639
+Mcast_block_source(230,5738
+mcast_unblock_source(238,5952
+Mcast_unblock_source(282,7063
+
+lib/mcast_leave.c,141
+mcast_leave(4,22
+#define	IPV6_LEAVE_GROUP	31,760
+Mcast_leave(53,1179
+mcast_leave_source_group(60,1320
+Mcast_leave_source_group(104,2463
+
+lib/mcast_set_if.c,41
+mcast_set_if(5,42
+Mcast_set_if(59,1269
+
+lib/mcast_set_loop.c,44
+mcast_set_loop(5,51
+Mcast_set_loop(34,523
+
+lib/mcast_set_ttl.c,42
+mcast_set_ttl(4,22
+Mcast_set_ttl(32,451
+
+lib/my_addrs.c,32
+my_addrs(6,74
+My_addrs(23,351
+
+lib/pselect.c,16
+pselect(13,430
+
+lib/read_fd.c,95
+read_fd(5,48
+	  struct cmsghdr	cm;13,202
+	  char				control[control14,224
+Read_fd(62,1291
+
+lib/readable_timeo.c,44
+readable_timeo(5,51
+Readable_timeo(22,314
+
+lib/readline.c,169
+static int	read_cnt;4,41
+static char	*read_ptr;read_ptr5,62
+static char	read_buf[read_buf6,85
+my_read(9,132
+readline(29,435
+readlinebuf(52,896
+Readline(61,1013
+
+lib/readn.c,26
+readn(5,91
+Readn(30,509
+
+lib/rtt.c,201
+int		rtt_d_flag 4,40
+#define	RTT_RTOCALC(10,212
+rtt_minmax(13,297
+rtt_init(23,434
+rtt_ts(46,933
+rtt_newpack(57,1113
+rtt_start(63,1178
+rtt_stop(81,1727
+rtt_timeout(112,2425
+rtt_debug(127,2716
+
+lib/signal.c,28
+signal(5,49
+Signal(28,487
+
+lib/signal_intr.c,38
+signal_intr(5,54
+Signal_intr(22,385
+
+lib/snprintf.c,17
+snprintf(15,433
+
+lib/sock_bind_wild.c,44
+sock_bind_wild(4,22
+Sock_bind_wild(47,897
+
+lib/sock_cmp_addr.c,20
+sock_cmp_addr(8,84
+
+lib/sock_cmp_port.c,20
+sock_cmp_port(8,84
+
+lib/sock_get_port.c,20
+sock_get_port(4,22
+
+lib/sock_ntop.c,36
+sock_ntop(9,111
+Sock_ntop(79,1836
+
+lib/sock_ntop_host.c,45
+sock_ntop_host(8,87
+Sock_ntop_host(66,1439
+
+lib/sock_set_addr.c,20
+sock_set_addr(4,23
+
+lib/sock_set_port.c,20
+sock_set_port(4,23
+
+lib/sock_set_wild.c,20
+sock_set_wild(4,23
+
+lib/sockatmark.c,17
+sockatmark(4,22
+
+lib/sockfd_to_family.c,48
+sockfd_to_family(5,53
+Sockfd_to_family(18,268
+
+lib/str_cli.c,14
+str_cli(4,23
+
+lib/str_echo.c,15
+str_echo(4,23
+
+lib/tcp_connect.c,39
+tcp_connect(5,48
+Tcp_connect(46,1069
+
+lib/tcp_listen.c,37
+tcp_listen(5,47
+Tcp_listen(54,1354
+
+lib/tv_sub.c,13
+tv_sub(4,23
+
+lib/udp_client.c,36
+udp_client(5,47
+Udp_client(39,897
+
+lib/udp_connect.c,38
+udp_connect(5,48
+Udp_connect(40,898
+
+lib/udp_server.c,37
+udp_server(5,47
+Udp_server(44,1059
+
+lib/unp.h,1527
+#define	__unp_h5,92
+#undef	recv90,2181
+#undef	send91,2193
+#define	recv(92,2205
+#define	send(93,2249
+#define	INADDR_NONE	98,2345
+#define	SHUT_RD	102,2482
+#define	SHUT_WR	103,2528
+#define	SHUT_RDWR	104,2574
+#define	INET_ADDRSTRLEN	113,2782
+#define	INET6_ADDRSTRLEN	121,3065
+#define	bzero(130,3408
+#define	gethostbyname2(137,3576
+struct unp_in_pktinfo 141,3692
+  struct in_addr	ipi_addr;142,3716
+  int				ipi_ifindex;143,3766
+#define	CMSG_LEN(154,4146
+#define	CMSG_SPACE(158,4255
+# define	SUN_LEN(166,4539
+#define AF_LOCAL	173,4759
+#define PF_LOCAL	176,4808
+#define INFTIM 184,5145
+#define	INFTIM_UNPH	187,5245
+#define	LISTENQ	193,5463
+#define	MAXLINE	196,5547
+#define	BUFFSIZE	197,5596
+#define	SERV_PORT	200,5722
+#define	SERV_PORT_STR	201,5767
+#define	UNIXSTR_PATH	202,5816
+#define	UNIXDG_PATH	203,5878
+#define	SA	212,6307
+#define	__SS_MAXSIZE	218,6446
+#define	__SS_ALIGNSIZE	219,6471
+#define	__SS_PAD1SIZE	221,6540
+#define	__SS_PAD1SIZE	223,6624
+#define	__SS_PAD2SIZE	225,6692
+struct sockaddr_storage 227,6749
+	u_char		ss_len;229,6803
+	sa_family_t	ss_family;231,6827
+	char		__ss_pad1[__ss_pad1232,6851
+	int64_t		__ss_align;233,6884
+	char		__ss_pad2[__ss_pad2234,6906
+#define	FILE_MODE	238,6950
+#define	DIR_MODE	240,7065
+typedef	void	Sigfunc(243,7176
+#define	min(245,7230
+#define	max(246,7271
+struct if_nameindex 253,7413
+  unsigned int   if_index;254,7435
+  char          *if_name;if_name255,7479
+struct timespec 263,7658
+  time_t	tv_sec;264,7676
+  long		tv_nsec;265,7708
+
+lib/unpifi.h,536
+#define	__unp_ifi_h5,141
+#define	IFI_NAME	10,200
+#define	IFI_HADDR	11,259
+struct ifi_info 13,323
+  char    ifi_name[ifi_name14,341
+  short   ifi_index;15,409
+  short   ifi_mtu;16,454
+  u_char  ifi_haddr[ifi_haddr17,496
+  u_short ifi_hlen;18,551
+  short   ifi_flags;19,617
+  short   ifi_myflags;20,680
+  struct sockaddr  *ifi_addr;ifi_addr21,733
+  struct sockaddr  *ifi_brdaddr;ifi_brdaddr22,785
+  struct sockaddr  *ifi_dstaddr;ifi_dstaddr23,841
+  struct ifi_info  *ifi_next;ifi_next24,899
+#define	IFI_ALIAS	27,964
+
+lib/unprtt.h,285
+#define	__unp_rtt_h2,20
+struct rtt_info 6,59
+  float		rtt_rtt;7,77
+  float		rtt_srtt;8,138
+  float		rtt_rttvar;9,198
+  float		rtt_rto;10,261
+  int		rtt_nrexmt;11,316
+  uint32_t	rtt_base;12,377
+#define	RTT_RXTMIN 15,438
+#define	RTT_RXTMAX 16,511
+#define	RTT_MAXNREXMT 17,584
+
+lib/unpthread.h,30
+#define	__unp_pthread_h5,123
+
+lib/wraplib.c,35
+Inet_ntop(9,156
+Inet_pton(21,472
+
+lib/wrappthread.c,447
+Pthread_create(9,85
+Pthread_join(21,316
+Pthread_detach(32,477
+Pthread_kill(43,621
+Pthread_mutexattr_init(54,777
+Pthread_mutexattr_setpshared(66,994
+Pthread_mutex_init(78,1216
+Pthread_mutex_lock(90,1447
+Pthread_mutex_unlock(102,1641
+Pthread_cond_broadcast(113,1812
+Pthread_cond_signal(124,1988
+Pthread_cond_wait(135,2155
+Pthread_cond_timedwait(146,2345
+Pthread_once(158,2595
+Pthread_key_create(169,2765
+Pthread_setspecific(180,2954
+
+lib/wrapsock.c,550
+Accept(22,892
+Bind(41,1189
+Connect(48,1311
+Getpeername(55,1442
+Getsockname(62,1586
+Getsockopt(69,1730
+Inet6_rth_space(77,1936
+Inet6_rth_init(89,2105
+Inet6_rth_add(101,2322
+Inet6_rth_reverse(108,2462
+Inet6_rth_segments(115,2592
+Inet6_rth_getaddr(127,2768
+Kqueue(141,2984
+Kevent(151,3084
+Listen(166,3401
+Poll(181,3667
+Recv(193,3843
+Recvfrom(203,4003
+Recvmsg(214,4234
+Select(224,4385
+Send(235,4647
+Sendto(242,4792
+Sendmsg(250,5002
+Setsockopt(264,5316
+Shutdown(271,5495
+Sockatmark(278,5587
+Socket(289,5721
+Socketpair(300,5888
+
+lib/wrapstdio.c,70
+Fclose(8,66
+Fdopen(15,144
+Fgets(26,281
+Fopen(37,452
+Fputs(48,604
+
+lib/wrapunix.c,469
+Calloc(22,895
+Close(32,1028
+Dup2(39,1100
+Fcntl(46,1184
+Gettimeofday(56,1312
+Ioctl(64,1441
+Fork(74,1620
+Malloc(84,1723
+Mkstemp(94,1842
+Mmap(113,2149
+Open(123,2355
+Pipe(133,2530
+Read(140,2603
+Sigaddset(150,2744
+Sigdelset(157,2854
+Sigemptyset(164,2964
+Sigfillset(171,3062
+Sigismember(178,3156
+Sigpending(188,3307
+Sigprocmask(195,3402
+Strdup(202,3544
+Sysconf(212,3667
+Sysctl(224,3867
+Unlink(233,4067
+Wait(240,4180
+Waitpid(250,4291
+Write(260,4457
+
+lib/writable_timeo.c,44
+writable_timeo(5,51
+Writable_timeo(22,313
+
+lib/write_fd.c,96
+write_fd(5,49
+	  struct cmsghdr	cm;12,189
+	  char				control[control13,211
+Write_fd(43,851
+
+lib/writen.c,28
+writen(5,91
+Writen(29,499
+
+libfree/addrinfo.h,878
+#define	__addrinfo_h2,21
+struct addrinfo 10,188
+  int		ai_flags;11,206
+  int		ai_family;12,256
+  int		ai_socktype;13,289
+  int		ai_protocol;14,325
+  size_t	ai_addrlen;15,382
+  char		*ai_canonname;ai_canonname16,429
+  struct sockaddr	*ai_addr;ai_addr17,483
+  struct addrinfo	*ai_next;ai_next18,532
+#define	AI_PASSIVE	22,637
+#define	AI_CANONNAME	23,707
+#define	NI_MAXHOST	26,797
+#define	NI_MAXSERV	27,851
+#define	NI_NOFQDN	29,910
+#define	NI_NUMERICHOST 30,960
+#define	NI_NAMEREQD	31,1025
+#define	NI_NUMERICSERV 32,1093
+#define	NI_DGRAM	33,1162
+#define	EAI_ADDRFAMILY	36,1253
+#define	EAI_AGAIN	37,1323
+#define	EAI_BADFLAGS	38,1388
+#define	EAI_FAIL	39,1445
+#define	EAI_FAMILY	40,1515
+#define	EAI_MEMORY	41,1568
+#define	EAI_NODATA	42,1623
+#define	EAI_NONAME	43,1684
+#define	EAI_SERVICE	44,1753
+#define	EAI_SOCKTYPE	45,1821
+#define	EAI_SYSTEM	46,1877
+
+libfree/getaddrinfo.c,568
+#define	_SOCKADDR_LEN	22,862
+#define	INET6	23,924
+#define	IPV4	53,1985
+#define	IPV6	58,2155
+#define	IPV6	60,2261
+#define	LOCAL	68,2569
+#define	AF_LOCAL	71,2655
+#define	PF_LOCAL	74,2737
+#define	HENTBUFSIZ	115,4691
+#define	HENTMAXADDR	116,4717
+#define	AI_CLONE	119,4868
+static struct addrinfo	hints_default;134,5564
+getaddrinfo(137,5607
+#define	error(158,6192
+getaddrinfo_host(443,15045
+#define	RES_USE_INET6	509,17023
+getaddrinfo_serv(538,17657
+getaddrinfo_port(640,21047
+getaddrinfo_clone(690,22381
+addrinfo_local(720,23047
+freeaddrinfo(757,24009
+
+libfree/getnameinfo.c,111
+#define	IPV4	30,1193
+#define	IPV6	33,1292
+#define	HENTBUFSIZ	42,1597
+getnameinfo(49,1773
+do_ipv46(84,2498
+
+libfree/in_cksum.c,15
+in_cksum(4,27
+
+libfree/inet_aton.c,18
+inet_aton(23,620
+
+libfree/inet_ntop.c,233
+static char rcsid[rcsid20,943
+#define	IN6ADDRSZ	32,1241
+#define	INT16SZ	33,1262
+#define	AF_INET6	36,1300
+inet_ntop(56,1903
+inet_ntop4(86,2459
+inet_ntop6(110,2938
+	struct { int base,123,3434
+	struct { int base, len;123,3434
+
+libfree/inet_ntop_ipv4.c,49
+#define	INET_ADDRSTRLEN	7,110
+inet_ntop(12,183
+
+libfree/inet_pton.c,196
+static char rcsid[rcsid20,943
+#define	IN6ADDRSZ	31,1222
+#define	INADDRSZ	32,1243
+#define	INT16SZ	33,1263
+#define	AF_INET6	36,1301
+inet_pton(59,2058
+inet_pton4(87,2570
+inet_pton6(141,3656
+
+libfree/inet_pton_ipv4.c,18
+inet_pton(14,307
+
+libfree/test_ascii2addr.c,12
+main(7,110
+
+libfree/test_getservbyname_r.c,11
+main(3,20
+
+libfree/test_inet_pton.c,36
+#define	AF_INET6	4,42
+main(10,155
+
+libgai/addrinfo.h,878
+#define	__addrinfo_h2,21
+struct addrinfo 10,188
+  int		ai_flags;11,206
+  int		ai_family;12,256
+  int		ai_socktype;13,289
+  int		ai_protocol;14,325
+  size_t	ai_addrlen;15,382
+  char		*ai_canonname;ai_canonname16,429
+  struct sockaddr	*ai_addr;ai_addr17,483
+  struct addrinfo	*ai_next;ai_next18,532
+#define	AI_PASSIVE	22,637
+#define	AI_CANONNAME	23,707
+#define	NI_MAXHOST	26,797
+#define	NI_MAXSERV	27,851
+#define	NI_NOFQDN	29,910
+#define	NI_NUMERICHOST 30,960
+#define	NI_NAMEREQD	31,1025
+#define	NI_NUMERICSERV 32,1093
+#define	NI_DGRAM	33,1162
+#define	EAI_ADDRFAMILY	36,1253
+#define	EAI_AGAIN	37,1323
+#define	EAI_BADFLAGS	38,1388
+#define	EAI_FAIL	39,1445
+#define	EAI_FAMILY	40,1515
+#define	EAI_MEMORY	41,1568
+#define	EAI_NODATA	42,1623
+#define	EAI_NONAME	43,1684
+#define	EAI_SERVICE	44,1753
+#define	EAI_SOCKTYPE	45,1821
+#define	EAI_SYSTEM	46,1877
+
+libgai/freeaddrinfo.c,19
+freeaddrinfo(5,54
+
+libgai/ga_aistruct.c,18
+ga_aistruct(9,98
+
+libgai/ga_clone.c,16
+ga_clone(9,127
+
+libgai/ga_echeck.c,17
+ga_echeck(9,127
+
+libgai/ga_nsearch.c,19
+ga_nsearch(10,156
+
+libgai/ga_port.c,17
+ga_port(31,1424
+
+libgai/ga_serv.c,15
+ga_serv(9,101
+
+libgai/ga_unix.c,14
+ga_unix(7,91
+
+libgai/gai_hdr.h,98
+#define	AI_CLONE	5,132
+struct search 7,203
+  const char	*host;host8,219
+  int			family;9,272
+
+libgai/gai_strerror.c,21
+gai_strerror(10,187
+
+libgai/getaddrinfo.c,41
+getaddrinfo(7,141
+#define	error(20,556
+
+libgai/getnameinfo.c,18
+getnameinfo(5,52
+
+libgai/gn_ipv46.c,16
+gn_ipv46(9,111
+
+libgai/old/ga_unixstruct.c,20
+ga_unixstruct(5,44
+
+libgai/old/savecopy.c,354
+#define	AI_CLONE	7,200
+struct search 9,271
+  const char	*host;host10,287
+  int			family;11,340
+static struct addrinfo	hints_default;27,1053
+getaddrinfo(30,1096
+#define	error(43,1508
+ga_echeck(170,4780
+ga_nsearch(222,6127
+ga_aistruct(329,8419
+ga_serv(391,10002
+ga_port(463,12530
+ga_clone(504,13460
+ga_unix(534,14122
+freeaddrinfo(570,15080
+
+libgai/test1.c,13
+main(10,182
+
+libgai/testga.c,149
+int		vflag;16,420
+main(19,437
+do_errtest(161,2988
+do_funccall(211,4686
+do_onetest(238,5455
+usage(302,7153
+str_fam(325,7943
+str_sock(343,8219
+
+libroute/get_rtaddrs.c,67
+#define ROUNDUP(6,101
+#define NEXT_SA(12,278
+get_rtaddrs(17,416
+
+libroute/if_indextoname.c,45
+if_indextoname(6,79
+If_indextoname(44,1005
+
+libroute/if_nameindex.c,67
+if_nameindex(6,92
+if_freenameindex(53,1343
+If_nameindex(60,1452
+
+libroute/if_nametoindex.c,45
+if_nametoindex(6,85
+If_nametoindex(44,1025
+
+libroute/net_rt_dump.c,38
+net_rt_dump(5,56
+Net_rt_dump(29,544
+
+libroute/net_rt_iflist.c,42
+net_rt_iflist(5,58
+Net_rt_iflist(31,560
+
+libroute/sock_masktop.c,19
+sock_masktop(4,36
+
+libroute/unproute.h,29
+#define	Sock_masktop(20,583
+
+mcast/dgclibcast1.c,36
+dg_cli(6,57
+recvfrom_alarm(40,833
+
+mcast/dgclimcast5.c,68
+static sigjmp_buf	jmpbuf;5,73
+dg_cli(8,105
+recvfrom_alarm(37,773
+
+mcast/dgclimcast6.c,68
+static sigjmp_buf	jmpbuf;5,73
+dg_cli(8,105
+recvfrom_alarm(37,773
+
+mcast/main.c,11
+main(7,91
+
+mcast/recv.c,15
+recv_all(4,23
+
+mcast/send.c,39
+#define	SENDRATE	4,43
+send_all(7,112
+
+mcast/udpcli01.c,11
+main(4,22
+
+mcast/udpcli05.c,11
+main(4,22
+
+mcast/udpcli06.c,11
+main(4,22
+
+mcast/udpserv01.c,11
+main(4,22
+
+mysdr/loop.c,132
+loop(4,25
+	struct sap_packet 10,126
+	  uint32_t	sap_header;11,147
+	  uint32_t	sap_src;12,171
+	  char		sap_data[sap_data13,192
+
+mysdr/main.c,58
+#define	SAP_NAME	3,18
+#define	SAP_PORT	4,85
+main(9,142
+
+mysdr/mysdr.h,295
+#define	SAP_VERSION	3,18
+#define SAP_VERSION_MASK	4,42
+#define	SAP_VERSION_SHIFT	5,78
+#define	SAP_IPV6	6,107
+#define	SAP_DELETE	7,137
+#define	SAP_ENCRYPTED	8,169
+#define	SAP_COMPRESSED	9,203
+#define	SAP_AUTHLEN_MASK	10,238
+#define	SAP_AUTHLEN_SHIFT	11,274
+#define	SAP_HASH_MASK	12,303
+
+names/daytimetcpcli.c,11
+main(4,22
+
+names/daytimetcpcli1.c,11
+main(4,22
+
+names/daytimetcpcli2.c,11
+main(4,22
+
+names/daytimetcpcli3.c,11
+main(4,22
+
+names/daytimetcpsrv1.c,11
+main(5,40
+
+names/daytimetcpsrv2.c,11
+main(5,40
+
+names/daytimetcpsrv3.c,11
+main(5,40
+
+names/daytimetcpsrv4.c,11
+main(5,40
+
+names/daytimeudpcli1.c,11
+main(4,22
+
+names/daytimeudpcli2.c,11
+main(4,22
+
+names/daytimeudpsrv2.c,11
+main(5,40
+
+names/daytimeudpsrv3.c,11
+main(5,40
+
+names/hostent.c,11
+main(4,22
+
+names/hostent2.c,11
+main(4,22
+
+names/hostent3.c,27
+main(6,46
+pr_ipv4(43,772
+
+names/myaddrs1.c,15
+my_addrs(5,49
+
+names/netent.c,11
+main(4,22
+
+names/prmyaddrs.c,11
+main(6,47
+
+names/prmyaddrs1.c,11
+main(6,47
+
+names/test1.c,11
+main(6,46
+
+names/test2.c,11
+main(4,22
+
+names/udp_server_reuseaddr.c,57
+udp_server_reuseaddr(5,47
+Udp_server_reuseaddr(46,1152
+
+nonblock/daytimetcpcli.c,11
+main(4,22
+
+nonblock/home_page.c,16
+home_page(4,23
+
+nonblock/start_connect.c,20
+start_connect(4,23
+
+nonblock/strclifork.c,14
+str_cli(4,23
+
+nonblock/strclinonb.c,14
+str_cli(5,43
+
+nonblock/tcpcli01.c,11
+main(4,22
+
+nonblock/tcpcli02.c,11
+main(4,22
+
+nonblock/tcpcli03.c,11
+main(4,22
+
+nonblock/tcpcli04.c,11
+main(4,22
+
+nonblock/tcpservselect03.c,11
+main(4,22
+
+nonblock/web.c,11
+main(5,41
+
+nonblock/web.h,529
+#define	MAXFILES	3,18
+#define	SERV	4,38
+struct file 6,92
+  char	*f_name;f_name7,106
+  char	*f_host;f_host8,139
+  int    f_fd;9,193
+  int	 f_flags;10,228
+} file[file11,264
+#define	F_CONNECTING	13,283
+#define	F_READING	14,334
+#define	F_DONE	15,393
+#define	GET_CMD	17,428
+int		nconn,20,489
+int		nconn, nfiles,20,489
+int		nconn, nfiles, nlefttoconn,20,489
+int		nconn, nfiles, nlefttoconn, nlefttoread,20,489
+int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;20,489
+fd_set	rset,21,542
+fd_set	rset, wset;21,542
+
+nonblock/write_get_cmd.c,20
+write_get_cmd(4,23
+
+oob/heartbeatcli.c,159
+static int		servfd;3,18
+static int		nsec;4,38
+static int		maxnprobes;5,93
+static int		nprobes;6,158
+heartbeat_cli(10,268
+sig_urg(27,636
+sig_alrm(41,878
+
+oob/heartbeatserv.c,156
+static int	servfd;3,18
+static int	nsec;4,37
+static int	maxnalarms;5,90
+static int	nprobes;6,158
+heartbeat_serv(10,264
+sig_urg(26,619
+sig_alrm(42,926
+
+oob/sigchldwaitpid.c,15
+sig_chld(4,23
+
+oob/strcliselect02.c,14
+str_cli(4,23
+
+oob/strecho02.c,15
+str_echo(4,23
+
+oob/tcpcli02.c,11
+main(4,22
+
+oob/tcprecv01.c,75
+int		listenfd,3,18
+int		listenfd, connfd;3,18
+main(8,66
+sig_urg(36,622
+
+oob/tcprecv02.c,11
+main(4,22
+
+oob/tcprecv03.c,11
+main(4,22
+
+oob/tcprecv03p.c,11
+main(4,22
+
+oob/tcprecv04.c,11
+main(4,22
+
+oob/tcprecv05.c,75
+int		listenfd,3,18
+int		listenfd, connfd;3,18
+main(8,66
+sig_urg(32,517
+
+oob/tcprecv06.c,11
+main(4,22
+
+oob/tcpsend01.c,11
+main(4,22
+
+oob/tcpsend02.c,11
+main(4,22
+
+oob/tcpsend03.c,11
+main(4,22
+
+oob/tcpsend04.c,11
+main(4,22
+
+oob/tcpsend05.c,11
+main(4,22
+
+oob/tcpsend06.c,11
+main(4,22
+
+oob/tcpserv02.c,11
+main(4,22
+
+ping/bsdping.c,1422
+static char copyright[copyright40,1981
+static char sccsid[sccsid46,2149
+#define	DEFDATALEN	87,3070
+#define	MAXIPLEN	88,3124
+#define	MAXICMPLEN	89,3144
+#define	MAXPACKET	90,3166
+#define	NROUTES	91,3222
+#define	A(93,3278
+#define	B(94,3342
+#define	SET(95,3407
+#define	CLR(96,3443
+#define	TST(97,3482
+#define	F_FLOOD	99,3518
+#define	F_INTERVAL	100,3542
+#define	F_NUMERIC	101,3568
+#define	F_PINGFILLED	102,3593
+#define	F_QUIET	103,3621
+#define	F_RROUTE	104,3645
+#define	F_SO_DEBUG	105,3669
+#define	F_SO_DONTROUTE	106,3695
+#define	F_VERBOSE	107,3725
+u_int options;108,3750
+#define	MAX_DUP_CHK	115,3955
+int mx_dup_ck 116,3986
+char rcvd_tbl[rcvd_tbl117,4015
+struct sockaddr whereto;119,4048
+int datalen 120,4091
+int s;121,4117
+u_char outpack[outpack122,4156
+char BSPACE 123,4183
+char DOT 124,4239
+char *hostname;hostname125,4255
+int ident;126,4271
+long npackets;129,4341
+long nreceived;130,4388
+long nrepeats;131,4437
+long ntransmitted;132,4481
+int interval 133,4547
+int timing;136,4611
+double tmin 137,4649
+double tmax 138,4706
+double tsum 139,4756
+main(157,5296
+onalrm(367,10623
+#define	MAXWAIT	382,10920
+pinger(406,11644
+pr_pack(450,12742
+in_cksum(636,16817
+tvsub(674,17680
+oninfo(689,17898
+onint(700,17988
+summary(717,18178
+static char *ttab[ttab743,18921
+pr_icmph(763,19449
+pr_iph(904,22672
+pr_addr(933,23513
+pr_retip(953,23929
+fill(972,24347
+usage(1003,25107
+
+ping/init_v6.c,14
+init_v6(4,24
+
+ping/main.c,89
+struct proto	proto_v4 3,19
+struct proto	proto_v6 6,113
+int	datalen 9,207
+main(12,275
+
+ping/old/icmp6.h,1245
+struct icmp6hdr 1,0
+    u_int8_t	icmp6_type;2,18
+    u_int8_t	icmp6_code;3,61
+    u_int16_t	icmp6_cksum;4,104
+	u_int32_t	un_data32[un_data326,165
+	u_int16_t	un_data16[un_data167,216
+	u_int8_t	un_data8[un_data88,267
+    } icmp6_dataun;9,316
+#define	icmp6_data32	12,340
+#define	icmp6_data16	13,384
+#define	icmp6_data8	14,428
+#define	icmp6_pptr	15,470
+#define	icmp6_mtu	16,522
+#define	icmp6_id	17,574
+#define	icmp6_seq	18,619
+#define	icmp6_maxdelay	19,665
+#define	ICMPV6_DEST_UNREACH	21,720
+#define	ICMPV6_PKT_TOOBIG	22,750
+#define	ICMPV6_TIME_EXCEED	23,778
+#define	ICMPV6_PARAMPROB	24,807
+#define	ICMPV6_INFOMSG_MASK	26,835
+#define	ICMPV6_ECHORQST	28,902
+#define	ICMPV6_ECHORPLY	29,931
+#define	ICMPV6_MGM_QUERY	30,960
+#define	ICMPV6_MGM_REPORT	31,989
+#define	ICMPV6_MGM_REDUCTION	32,1019
+#define	ICMPV6_DEST_UNREACH_NOROUTE	34,1053
+#define	ICMPV6_DEST_UNREACH_ADMIN 35,1121
+#define	ICMPV6_DEST_UNREACH_NOTNEIGHBOR	37,1237
+#define	ICMPV6_DEST_UNREACH_ADDR 38,1300
+#define	ICMPV6_DEST_UNREACH_NOPORT	39,1362
+#define	ICMPV6_TIME_EXCEED_HOPS	41,1415
+#define	ICMPV6_TIME_EXCEED_REASSEMBLY	42,1482
+#define	ICMPV6_PARAMPROB_HDR	44,1549
+#define	ICMPV6_PARAMPROB_NXT_HDR	45,1610
+#define	ICMPV6_PARAMPROB_OPTS	46,1676
+
+ping/old/ip6.h,454
+struct ip6hdr 1,0
+	struct ip6hdrctl 3,28
+	    u_int32_t ctl6_flow;4,48
+	    u_int16_t ctl6_plen;5,99
+	    u_int8_t  ctl6_nxt;6,153
+	    u_int8_t  ctl6_hlim;7,204
+	} un_ctl6;8,253
+	u_int8_t un_vfc;9,265
+    } ip6_ctlun;10,322
+    struct in6_addr ip6_src;11,339
+    struct in6_addr ip6_dst;12,390
+#define ip6_vfc	15,450
+#define ip6_flow	16,484
+#define	ip6_plen	17,529
+#define	ip6_nxt	18,574
+#define	ip6_hlim	19,618
+#define	ip6_hops	20,663
+
+ping/ping.h,455
+#define	BUFSIZE	6,101
+char	 sendbuf[sendbuf9,141
+int		 datalen;11,166
+char	*host;host12,227
+int		 nsent;13,239
+pid_t	 pid;14,285
+int		 sockfd;15,314
+int		 verbose;16,328
+struct proto 28,664
+  void	 (*fproc)fproc29,679
+  void	 (*fsend)fsend30,749
+  void	 (*finit)finit31,773
+  struct sockaddr  *sasend;sasend32,797
+  struct sockaddr  *sarecv;sarecv33,869
+  socklen_t	    salen;34,928
+  int	   	    icmpproto;35,980
+} *pr;pr36,1038
+
+ping/ping_v4.c,14
+ping_v4(4,24
+
+ping/proc_v4.c,14
+proc_v4(4,24
+
+ping/proc_v6.c,14
+proc_v6(4,24
+
+ping/readloop.c,15
+readloop(4,24
+
+ping/send_v4.c,14
+send_v4(4,24
+
+ping/send_v6.c,14
+send_v6(4,24
+
+ping/sig_alrm.c,15
+sig_alrm(4,24
+
+ping/tv_sub.c,13
+tv_sub(4,23
+
+route/checkudpsum.c,12
+main(7,141
+
+route/get_ifi_info.c,66
+get_ifi_info(6,89
+free_ifi_info(102,3006
+Get_ifi_info(119,3441
+
+route/getrt.c,52
+#define	BUFLEN	4,44
+#define	SEQ	6,141
+main(9,164
+
+route/mynetstat.c,48
+main(7,70
+pr_rtable(32,481
+pr_iflist(57,1070
+
+route/prifindex.c,11
+main(4,25
+
+route/prifinfo.c,11
+main(4,25
+
+route/prifname.c,11
+main(4,25
+
+route/prifnameindex.c,11
+main(4,25
+
+route/unproute.h,29
+#define	Sock_masktop(20,577
+
+rtt/dg_cli.c,14
+dg_cli(7,119
+
+rtt/dg_echo.c,14
+dg_echo(4,23
+
+rtt/dg_send_recv.c,380
+#define	RTT_DEBUG5,67
+static struct rtt_info   rttinfo;7,86
+static int	rttinit 8,120
+static struct msghdr	msgsend,9,144
+static struct msghdr	msgsend, msgrecv;9,144
+static struct hdr 10,207
+  uint32_t	seq;11,227
+  uint32_t	ts;12,260
+} sendhdr,13,302
+} sendhdr, recvhdr;13,302
+static sigjmp_buf	jmpbuf;16,356
+dg_send_recv(19,391
+sig_alrm(96,2329
+Dg_send_recv(103,2408
+
+rtt/udpcli01.c,11
+main(4,22
+
+rtt/unprtt.h,285
+#define	__unp_rtt_h2,20
+struct rtt_info 6,59
+  float		rtt_rtt;7,77
+  float		rtt_srtt;8,135
+  float		rtt_rttvar;9,192
+  float		rtt_rto;10,252
+  int		rtt_nrexmt;11,304
+  uint32_t	rtt_base;12,364
+#define	RTT_RXTMIN 15,424
+#define	RTT_RXTMAX 16,494
+#define	RTT_MAXNREXMT 17,564
+
+sctp/sctp_addr_to_associd.c,30
+sctp_address_to_associd(4,31
+
+sctp/sctp_bindargs.c,25
+sctp_bind_arg_list(4,22
+
+sctp/sctp_check_notify.c,25
+check_notification(4,23
+
+sctp/sctp_displayevents.c,25
+print_notification(4,23
+
+sctp/sctp_getnostrm.c,24
+sctp_get_no_strms(4,23
+
+sctp/sctp_modify_hb.c,27
+int heartbeat_action(3,18
+
+sctp/sctp_pdapircv.c,118
+static uint8_t *sctp_pdapi_readbuf=sctp_pdapi_readbuf3,18
+static int sctp_pdapi_rdbuf_sz=4,59
+pdapi_recvmsg(8,105
+
+sctp/sctp_print_addrs.c,27
+sctp_print_addresses(4,23
+
+sctp/sctp_strcli.c,18
+sctpstr_cli(4,23
+
+sctp/sctp_strcli1.c,18
+sctpstr_cli(4,23
+
+sctp/sctp_strcli_un.c,18
+sctpstr_cli(4,23
+
+sctp/sctp_strcliecho.c,53
+#define	SCTP_MAXLINE	3,18
+sctpstr_cli_echoall(6,49
+
+sctp/sctp_strcliecho2.c,53
+#define	SCTP_MAXLINE	3,18
+sctpstr_cli_echoall(6,49
+
+sctp/sctp_wrapper.c,59
+Sctp_recvmsg(5,23
+Sctp_sendmsg 20,319
+Sctp_bindx(34,677
+
+sctp/sctpclient01.c,11
+main(4,22
+
+sctp/sctpclient02.c,11
+main(4,22
+
+sctp/sctpclient04.c,11
+main(4,22
+
+sctp/sctpserv01.c,11
+main(4,22
+
+sctp/sctpserv02.c,11
+main(4,22
+
+sctp/sctpserv03.c,11
+main(4,22
+
+sctp/sctpserv04.c,11
+main(4,22
+
+sctp/sctpserv05.c,11
+main(4,22
+
+sctp/sctpserv06.c,11
+main(4,22
+
+sctp/sctpserv07.c,11
+main(4,22
+
+sctp/sctpserv_fork.c,11
+main(4,22
+
+sctp/unp.h,1461
+#define	__unp_h5,92
+#undef	recv64,1757
+#undef	send65,1769
+#define	recv(66,1781
+#define	send(67,1825
+#define	INADDR_NONE	72,1921
+#define	SHUT_RD	76,2067
+#define	SHUT_WR	77,2113
+#define	SHUT_RDWR	78,2159
+#define	INET_ADDRSTRLEN	87,2367
+#define	INET6_ADDRSTRLEN	95,2651
+#define	bzero(104,2994
+#define	gethostbyname2(111,3162
+struct in_pktinfo 115,3278
+  struct in_addr	ipi_addr;116,3298
+  int				ipi_ifindex;117,3348
+#define	CMSG_LEN(128,3724
+#define	CMSG_SPACE(132,3833
+# define	SUN_LEN(140,4119
+#define AF_LOCAL	147,4346
+#define PF_LOCAL	150,4395
+#define INFTIM 158,4735
+#define	INFTIM_UNPH	161,4835
+#define	LISTENQ	167,5053
+#define	MAXLINE	170,5137
+#define	MAXSOCKADDR 171,5186
+#define	BUFFSIZE	172,5251
+#define	SERV_PORT	175,5379
+#define	SERV_PORT_STR	176,5439
+#define SCTP_PDAPI_INCR_SZ 178,5530
+#define SCTP_PDAPI_NEED_MORE_THRESHOLD 179,5616
+#define SERV_MAX_SCTP_STRM	180,5692
+#define SERV_MORE_STRMS_SCTP	181,5751
+#define	UNIXSTR_PATH	184,5816
+#define	UNIXDG_PATH	185,5887
+#define	SA	195,6377
+#define	FILE_MODE	197,6405
+#define	DIR_MODE	199,6520
+typedef	void	Sigfunc(202,6631
+#define	min(204,6685
+#define	max(205,6726
+struct if_nameindex 212,6868
+  unsigned int   if_index;213,6890
+  char          *if_name;if_name214,6934
+struct timespec 222,7113
+  time_t	tv_sec;223,7131
+  long		tv_nsec;224,7163
+#define SCTP_ON_DEMAND_HB 277,9184
+#define SCTP_SET_HB_INTERVAL 278,9215
+#define SCTP_DISABLE_HB 279,9246
+
+select/strcliselect01.c,14
+str_cli(4,23
+
+select/strcliselect02.c,14
+str_cli(4,23
+
+select/tcpcli01.c,12
+main(5,100
+
+select/tcpcli02.c,12
+main(5,100
+
+select/tcpcli03.c,11
+main(5,75
+
+server/child.h,144
+  pid_t		child_pid;2,17
+  int		child_pipefd;3,55
+  int		child_status;4,117
+  long		child_count;5,154
+} Child;6,203
+Child	*cptr;cptr8,213
+
+server/child02.c,36
+child_make(5,49
+child_main(19,307
+
+server/child02l.c,36
+child_make(4,24
+child_main(16,236
+
+server/child02m.c,36
+child_make(4,24
+child_main(16,236
+
+server/child03.c,36
+child_make(4,24
+child_main(16,236
+
+server/child03m.c,36
+child_make(4,24
+child_main(16,236
+
+server/child04.c,36
+child_make(4,24
+child_main(16,236
+
+server/child05.c,36
+child_make(6,68
+child_main(32,673
+
+server/client.c,30
+#define	MAXN	3,18
+main(6,84
+
+server/clientrst.c,30
+#define	MAXN	3,18
+main(6,83
+
+server/lock_fcntl.c,171
+static struct flock	lock_it,4,45
+static struct flock	lock_it, unlock_it;4,45
+static int			lock_fd 5,85
+my_lock_init(9,176
+my_lock_wait(33,704
+my_lock_release(46,900
+
+server/lock_pthread.c,105
+static pthread_mutex_t	*mptr;mptr5,73
+my_lock_init(8,153
+my_lock_wait(27,551
+my_lock_release(33,603
+
+server/meter.c,14
+meter(11,264
+
+server/pr_cpu_time.c,19
+pr_cpu_time(9,124
+
+server/pthread07.c,38
+thread_make(5,52
+thread_main(14,218
+
+server/pthread07.h,210
+  pthread_t		thread_tid;2,17
+  long			thread_count;3,59
+} Thread;4,110
+Thread	*tptr;tptr5,120
+int				listenfd,7,180
+int				listenfd, nthreads;7,180
+socklen_t		addrlen;8,207
+pthread_mutex_t	mlock;9,227
+
+server/pthread08.c,38
+thread_make(5,52
+thread_main(14,218
+
+server/pthread08.h,298
+  pthread_t		thread_tid;2,17
+  long			thread_count;3,59
+} Thread;4,110
+Thread	*tptr;tptr5,120
+#define	MAXNCLI	7,180
+int					clifd[clifd8,199
+int					clifd[MAXNCLI], iget,8,199
+int					clifd[MAXNCLI], iget, iput;8,199
+pthread_mutex_t		clifd_mutex;9,235
+pthread_cond_t		clifd_cond;10,265
+
+server/pthread09.c,38
+thread_make(5,52
+thread_main(14,218
+
+server/pthread09.h,181
+  pthread_t		thread_tid;2,17
+  long			thread_count;3,59
+} Thread;4,109
+Thread	*tptr;tptr5,119
+int				listenfd,7,179
+int				listenfd, nthreads;7,179
+socklen_t		addrlen;8,206
+
+server/readline.c,32
+readline(5,49
+Readline(31,475
+
+server/readline_r.c,78
+my_read_r(6,80
+readline_rinit(28,469
+readline_r(39,743
+Readline_r(65,1171
+
+server/readline_r.h,183
+  int		read_fd;2,17
+  char		*read_ptr;read_ptr3,73
+  size_t	read_maxlen;4,128
+  int		rl_cnt;6,232
+  char		*rl_bufptr;rl_bufptr7,271
+  char		rl_buf[rl_buf8,319
+} Rline;9,344
+
+server/serv00.c,27
+main(5,43
+sig_int(35,685
+
+server/serv01.c,27
+main(5,43
+sig_int(45,975
+
+server/serv02.c,85
+static int		nchildren;4,39
+static pid_t	*pids;pids5,62
+main(8,87
+sig_int(36,728
+
+server/serv02m.c,110
+static int		nchildren;3,18
+static pid_t	*pids;pids4,41
+long			*cptr,cptr5,61
+main(8,127
+sig_int(35,756
+
+server/serv03.c,85
+static int		nchildren;3,18
+static pid_t	*pids;pids4,41
+main(7,66
+sig_int(34,741
+
+server/serv03m.c,110
+static int		nchildren;3,18
+static pid_t	*pids;pids4,41
+long			*cptr,cptr5,61
+main(8,127
+sig_int(36,828
+
+server/serv04.c,85
+static int		nchildren;3,18
+static pid_t	*pids;pids4,41
+main(7,66
+sig_int(34,690
+
+server/serv05.c,56
+static int		nchildren;5,59
+main(8,87
+sig_int(86,2084
+
+server/serv06.c,40
+main(5,49
+doit(33,624
+sig_int(45,780
+
+server/serv07.c,56
+pthread_mutex_t	mlock 5,68
+main(8,124
+sig_int(33,675
+
+server/serv08.c,127
+static int			nthreads;5,68
+pthread_mutex_t		clifd_mutex 6,91
+pthread_cond_t		clifd_cond 7,149
+main(10,209
+sig_int(52,1173
+
+server/serv09.c,27
+main(6,72
+sig_int(31,623
+
+server/sig_chld_waitpid.c,15
+sig_chld(4,23
+
+server/unpthread.h,30
+#define	__unp_pthread_h5,123
+
+server/web_child.c,35
+#define	MAXN	3,18
+web_child(6,81
+
+server/web_child_r.c,36
+#define	MAXN	4,42
+web_child(7,111
+
+sigio/dgcli01.c,13
+dg_cli(4,23
+
+sigio/dgecho01.c,421
+static int		sockfd;4,40
+#define	QSIZE	6,61
+#define	MAXDG	7,107
+  void		*dg_data;dg_data10,169
+  size_t	dg_len;11,217
+  struct sockaddr  *dg_sa;dg_sa12,261
+  socklen_t	dg_salen;13,331
+} DG;14,381
+static DG	dg[dg15,387
+static long	cntread[cntread16,446
+static int	iget;18,502
+static int	iput;19,560
+static int	nqueue;20,625
+static socklen_t clilen;21,687
+dg_echo(29,840
+sig_io(79,1993
+sig_hup(113,2612
+
+sigio/udpcli01.c,11
+main(4,22
+
+sigio/udpserv01.c,11
+main(4,22
+
+sock/buffers.c,16
+buffers(13,456
+
+sock/cliopen.c,16
+cliopen(13,455
+
+sock/crlf.c,36
+crlf_add(15,497
+crlf_strip(36,880
+
+sock/error.c,127
+char	*pname pname7,168
+err_ret(14,332
+err_sys(29,550
+err_dump(44,782
+err_msg(60,1071
+err_quit(75,1292
+err_doit(89,1499
+
+sock/loop.c,61
+loop(19,627
+#define	CONTROLLEN	32,1022
+sig_catch(197,5669
+
+sock/looptcp.c,17
+loop_tcp(16,546
+
+sock/loopudp.c,45
+loop_udp(16,546
+#define	CONTROLLEN	31,1005
+
+sock/main.c,1321
+char	*host;host12,451
+char	*port;port13,504
+int		bindport;16,550
+int		broadcast;18,646
+int		cbreak;19,683
+int		chunkwrite;20,733
+int		client 21,797
+int		connectudp 22,854
+int		crlf;23,901
+int		debug;24,959
+int		dofork;25,989
+int		dontroute;26,1042
+char	foreignip[foreignip27,1079
+int		foreignport;28,1148
+int		halfclose;29,1193
+int		ignorewerr;30,1239
+int		iptos 31,1305
+int		ipttl 32,1343
+char	joinip[joinip33,1381
+int		keepalive;34,1450
+long	linger 35,1487
+int		listenq 36,1542
+char	localip[localip37,1595
+int		maxseg;38,1660
+int		mcastttl;39,1693
+int		msgpeek;40,1730
+int		nodelay;41,1761
+int		nbuf 42,1813
+int		onesbcast;43,1877
+int		pauseclose;44,1945
+int		pauseinit;45,2012
+int		pauselisten;46,2067
+int		pauserw;47,2120
+int		reuseaddr;48,2181
+int		reuseport;49,2218
+int		readlen 50,2255
+int		writelen 51,2314
+int		recvdstaddr;52,2374
+int		rcvbuflen;53,2421
+int		sndbuflen;54,2464
+long	rcvtimeo;55,2507
+long	sndtimeo;56,2542
+int		sroute_cnt;57,2577
+char   *rbuf;rbuf58,2634
+char   *wbuf;wbuf59,2683
+int		server;60,2732
+int		sigio;61,2790
+int		sourcesink;62,2822
+int		udp;63,2864
+int		urgwrite;64,2906
+int		verbose;65,2964
+int		usewritev;66,3015
+struct sockaddr_in	cliaddr,68,3072
+struct sockaddr_in	cliaddr, servaddr;68,3072
+main(73,3149
+usage(365,9152
+
+sock/multicast.c,19
+join_mcast(13,456
+
+sock/ourhdr.h,442
+#define	__ourhdr_h4,93
+typedef	int	ssize_t;13,424
+#define	send(22,655
+#define	MAXLINE	25,741
+#define	FILE_MODE	27,787
+#define	DIR_MODE	29,902
+typedef	void	Sigfunc(32,1013
+#define	SIG_ERR	36,1166
+#define	min(39,1206
+#define	max(40,1247
+#define	read_lock(84,3145
+#define	readw_lock(86,3245
+#define	write_lock(88,3347
+#define	writew_lock(90,3448
+#define	un_lock(92,3551
+#define	is_readlock(98,3728
+#define	is_writelock(100,3822
+
+sock/pattern.c,16
+pattern(14,475
+
+sock/servopen.c,17
+servopen(13,455
+
+sock/sinktcp.c,17
+sink_tcp(13,456
+
+sock/sinkudp.c,17
+sink_udp(13,456
+
+sock/sleepus.c,16
+sleep_us(8,110
+
+sock/sock.h,54
+#define	INET_NTOA(78,2129
+#define	INET_NTOA(80,2174
+
+sock/sockopts.c,39
+sockopts(15,498
+sigio_func(357,10505
+
+sock/sourceroute.c,107
+u_char	sroute_opt[sroute_opt27,1187
+u_char	*optr;optr29,1288
+sroute_doopt(41,1683
+sroute_set(80,2837
+
+sock/sourcesink.c,30
+sink(16,510
+pattern(80,1797
+
+sock/sourcetcp.c,19
+source_tcp(13,456
+
+sock/sourceudp.c,19
+source_udp(13,456
+
+sock/strerror.c,15
+strerror(7,90
+
+sock/tellwait.c,283
+static volatile sig_atomic_t	sigflag;4,41
+static sigset_t			newmask,6,123
+static sigset_t			newmask, oldmask,6,123
+static sigset_t			newmask, oldmask, zeromask;6,123
+sig_usr(9,182
+TELL_WAIT(16,283
+TELL_PARENT(34,720
+WAIT_PARENT(40,804
+TELL_CHILD(52,1048
+WAIT_CHILD(58,1131
+
+sock/write.c,43
+#define	UIO_MAXIOV	14,511
+dowrite(18,588
+
+sock/writen.c,13
+writen(4,73
+
+sockopt/checkopts.c,487
+union val 6,114
+  int				i_val;7,126
+  long				l_val;8,142
+  struct linger		linger_val;9,159
+  struct timeval	timeval_val;10,188
+} val;11,218
+struct sock_opts 18,415
+  const char	   *opt_str;opt_str19,434
+  int		opt_level;20,460
+  int		opt_name;21,478
+  char   *(*opt_val_str)opt_val_str22,495
+} sock_opts[sock_opts23,539
+main(91,2970
+static char	strres[strres137,3943
+sock_str_flag(140,3983
+sock_str_int(154,4298
+sock_str_linger(164,4527
+sock_str_timeval(178,4875
+
+sockopt/prdefaults.c,24
+main(6,56
+doit(35,682
+
+sockopt/rcvbuf.c,11
+main(5,69
+
+sockopt/rcvbufset.c,11
+main(5,69
+
+sockopt/sockopt.c,11
+main(5,75
+
+sparc64-unknown-freebsd5.1/config.h,2599
+#define CPU_VENDOR_OS 5,175
+#define HAVE_ADDRINFO_STRUCT 8,277
+#define HAVE_ARPA_INET_H 11,365
+#define HAVE_BZERO 14,440
+#define HAVE_ERRNO_H 26,760
+#define HAVE_FCNTL_H 29,836
+#define HAVE_GETADDRINFO 32,913
+#define HAVE_GETADDRINFO_PROTO 35,995
+#define HAVE_GETHOSTBYNAME2 38,1085
+#define HAVE_GETHOSTNAME 44,1261
+#define HAVE_GETHOSTNAME_PROTO 47,1344
+#define HAVE_GETNAMEINFO 50,1431
+#define HAVE_GETNAMEINFO_PROTO 53,1513
+#define HAVE_GETRUSAGE_PROTO 56,1606
+#define HAVE_HSTRERROR 59,1689
+#define HAVE_HSTRERROR_PROTO 62,1767
+#define HAVE_IF_NAMEINDEX_STRUCT 65,1854
+#define HAVE_IF_NAMETOINDEX 68,1946
+#define HAVE_IF_NAMETOINDEX_PROTO 71,2035
+#define HAVE_INET_ATON 74,2123
+#define HAVE_INET_ATON_PROTO 77,2205
+#define HAVE_INET_PTON 80,2288
+#define HAVE_INET_PTON_PROTO 83,2370
+#define HAVE_KEVENT 86,2450
+#define HAVE_KQUEUE 89,2521
+#define HAVE_MKSTEMP 107,3019
+#define HAVE_MSGHDR_MSG_CONTROL 110,3106
+#define HAVE_NETCONFIG_H 113,3197
+#define HAVE_NETDB_H 116,3277
+#define HAVE_NETINET_IN_H 122,3439
+#define HAVE_NET_IF_DL_H 125,3524
+#define HAVE_POLL 128,3598
+#define HAVE_POLL_H 131,3670
+#define HAVE_PSELECT 134,3742
+#define HAVE_PSELECT_PROTO 137,3819
+#define HAVE_PTHREAD_H 140,3903
+#define HAVE_SIGNAL_H 143,3982
+#define HAVE_SNPRINTF 146,4057
+#define HAVE_SNPRINTF_PROTO 149,4133
+#define HAVE_SOCKADDR_DL_STRUCT 152,4221
+#define HAVE_SOCKADDR_SA_LEN 155,4317
+#define HAVE_SOCKATMARK 158,4401
+#define HAVE_SOCKATMARK_PROTO 161,4486
+#define HAVE_STDIO_H 164,4571
+#define HAVE_STDLIB_H 167,4648
+#define HAVE_STRINGS_H 170,4727
+#define HAVE_STRING_H 173,4806
+#define HAVE_STRUCT_IFREQ_IFR_MTU 179,4969
+#define HAVE_STRUCT_SOCKADDR_STORAGE 182,5073
+#define HAVE_SYS_EVENT_H 185,5169
+#define HAVE_SYS_FILIO_H 188,5253
+#define HAVE_SYS_IOCTL_H 191,5337
+#define HAVE_SYS_SELECT_H 194,5422
+#define HAVE_SYS_SOCKET_H 197,5508
+#define HAVE_SYS_SOCKIO_H 200,5594
+#define HAVE_SYS_STAT_H 203,5678
+#define HAVE_SYS_SYSCTL_H 206,5762
+#define HAVE_SYS_TIME_H 209,5846
+#define HAVE_SYS_TYPES_H 212,5929
+#define HAVE_SYS_UIO_H 215,6011
+#define HAVE_SYS_UN_H 218,6090
+#define HAVE_SYS_WAIT_H 221,6170
+#define HAVE_TIMESPEC_STRUCT 224,6246
+#define HAVE_TIME_H 227,6329
+#define HAVE_UNISTD_H 230,6405
+#define HAVE_VSNPRINTF 233,6481
+#define IPV4 242,6708
+#define IPV6 245,6765
+#define IPv4 248,6822
+#define IPv6 251,6879
+#define MCAST 254,6944
+#define STDC_HEADERS 260,7105
+#define TIME_WITH_SYS_TIME 263,7200
+#define UNIXDOMAIN 266,7286
+#define UNIXdomain 269,7364
+#define t_scalar_t 293,7918
+#define t_uscalar_t 296,7973
+
+ssntp/main.c,11
+main(4,23
+
+ssntp/ntp.h,687
+#define	JAN_1970	1,0
+struct l_fixedpt 3,60
+  uint32_t	int_part;4,105
+  uint32_t	fraction;5,126
+struct s_fixedpt 8,151
+  uint16_t	int_part;9,196
+  uint16_t	fraction;10,217
+struct ntpdata 13,242
+  u_char			status;14,277
+  u_char			stratum;15,296
+  u_char			ppoll;16,316
+  int				precision:precision17,334
+  struct s_fixedpt	distance;18,356
+  struct s_fixedpt	dispersion;19,385
+  uint32_t			refid;20,416
+  struct l_fixedpt	reftime;21,436
+  struct l_fixedpt	org;22,464
+  struct l_fixedpt	rec;23,488
+  struct l_fixedpt	xmt;24,512
+#define	VERSION_MASK	27,540
+#define	MODE_MASK	28,566
+#define	MODE_CLIENT	30,591
+#define	MODE_SERVER	31,614
+#define	MODE_BROADCAST	32,637
+
+ssntp/sntp_proc.c,16
+sntp_proc(4,24
+
+streams/stream_dg/client.c,95
+#define SERV_HOST_ADDR 10,134
+#define SERV_TCP_PORT 11,174
+main(13,204
+echo_driver(51,1008
+
+streams/stream_dg/net_stream.c,277
+net_open 14,186
+net_bind 28,367
+		struct T_bind_req msg_hdr;31,422
+		char addr[addr32,451
+net_send 102,1904
+		struct T_unitdata_req unitdata_req;107,2029
+		char buf[buf108,2067
+net_recv 134,2652
+		struct T_unitdata_ind unitdata_ind;139,2779
+		char buf[buf140,2817
+
+streams/stream_dg/server.c,61
+#define SERV_TCP_PORT 11,157
+main(13,187
+echo_serv 32,589
+
+streams/strlist_sock.c,11
+main(5,43
+
+streams/strlist_xti.c,11
+main(5,46
+
+streams/tpi_bind.c,144
+tpi_bind(4,31
+	  struct T_bind_req	msg_hdr;7,94
+	  char				addr[addr8,124
+	  struct T_bind_ack	msg_hdr;11,169
+	  char				addr[addr12,199
+
+streams/tpi_close.c,16
+tpi_close(4,31
+
+streams/tpi_connect.c,147
+tpi_connect(4,31
+	  struct T_conn_req	msg_hdr;7,97
+	  char				addr[addr8,127
+	  struct T_conn_con	msg_hdr;11,172
+	  char				addr[addr12,202
+
+streams/tpi_daytime.c,11
+main(4,30
+
+streams/tpi_read.c,15
+tpi_read(4,34
+
+streams/unpxti.h,582
+#define	__unp_xti_h3,43
+#undef	INFTIM	19,276
+#define	T_INET_TCP	28,500
+#define	T_INET_UDP	33,599
+#define	T_INET_IP	36,653
+#define	T_TCP_NODELAY	39,709
+#define	T_TCP_MAXSEG	42,771
+#define	T_TCP_KEEPALIVE	45,834
+#define	T_UDP_CHECKSUM	48,902
+#define	T_IP_OPTIONS	51,966
+#define	T_IP_TOS	54,1022
+#define	T_IP_TTL	57,1071
+#define	T_IP_REUSEADDR	60,1126
+#define	T_IP_DONTROUTE	63,1192
+#define	T_IP_BROADCAST	67,1281
+# define	XTI_TCP	73,1425
+# define	XTI_UDP	74,1454
+# define	XTI_TCP	77,1514
+# define	XTI_UDP	78,1547
+# define	XTI_TCP	81,1621
+# define	XTI_UDP	82,1682
+
+tcpcliserv/sigchldwait.c,15
+sig_chld(4,23
+
+tcpcliserv/sigchldwaitpid.c,15
+sig_chld(4,23
+
+tcpcliserv/str_cli08.c,14
+str_cli(4,23
+
+tcpcliserv/str_cli09.c,14
+str_cli(5,40
+
+tcpcliserv/str_cli11.c,14
+str_cli(4,23
+
+tcpcliserv/str_echo08.c,15
+str_echo(4,23
+
+tcpcliserv/str_echo09.c,15
+str_echo(5,40
+
+tcpcliserv/sum.h,90
+struct args 1,0
+  long	arg1;2,14
+  long	arg2;3,27
+struct result 6,44
+  long	sum;7,60
+
+tcpcliserv/tcpcli01.c,11
+main(4,22
+
+tcpcliserv/tcpcli04.c,11
+main(4,22
+
+tcpcliserv/tcpcli05.c,12
+main(5,100
+
+tcpcliserv/tcpcli06.c,12
+main(7,121
+
+tcpcliserv/tcpcli07.c,28
+main(4,22
+sig_alrm(38,819
+
+tcpcliserv/tcpcli08.c,11
+main(4,22
+
+tcpcliserv/tcpcli09.c,11
+main(4,22
+
+tcpcliserv/tcpcli10.c,11
+main(4,22
+
+tcpcliserv/tcpcli11.c,12
+main(5,100
+
+tcpcliserv/tcpserv01.c,11
+main(4,22
+
+tcpcliserv/tcpserv02.c,11
+main(4,22
+
+tcpcliserv/tcpserv03.c,11
+main(4,22
+
+tcpcliserv/tcpserv04.c,11
+main(4,22
+
+tcpcliserv/tcpserv08.c,11
+main(4,22
+
+tcpcliserv/tcpserv09.c,11
+main(4,22
+
+tcpcliserv/tcpservpoll01.c,11
+main(6,82
+
+tcpcliserv/tcpservselect01.c,11
+main(5,42
+
+tcpcliserv/tsigpipe.c,27
+sig_pipe(4,23
+main(11,92
+
+test/accept_eintr.c,28
+sig_int(6,102
+main(13,169
+
+test/funcs.c,68
+TcpSockByAddr(8,82
+UdpSockByAddr(30,551
+UdpConnSockByAddr(49,894
+
+test/readline.h,183
+  int		read_fd;2,17
+  char		*read_ptr;read_ptr3,73
+  size_t	read_maxlen;4,128
+  int		rl_cnt;6,232
+  char		*rl_bufptr;rl_bufptr7,271
+  char		rl_buf[rl_buf8,319
+} Rline;9,344
+
+test/readline1.c,32
+readline(6,94
+Readline(34,626
+
+test/readline2.c,48
+my_read(5,56
+readline(25,408
+Readline(49,791
+
+test/readline3.c,74
+my_read(6,78
+readline_rinit(28,465
+readline_r(39,739
+Readline(63,1125
+
+test/test1.c,212
+struct sockaddr_in	servaddr,12,281
+struct sockaddr_in	servaddr, cliaddr;12,281
+char	buff[buff13,319
+int		verbose;14,336
+header_flags(21,415
+sendto_01(49,963
+udp_01(165,4377
+usage(170,4403
+main(182,4527
+
+test/test2.c,50
+main(4,22
+udp_client(28,619
+Udp_client(61,1450
+
+test/tisfdtype.c,11
+main(3,18
+
+test/treadline1.c,11
+main(4,22
+
+test/treadline2.c,11
+main(4,22
+
+test/treadline3.c,11
+main(5,44
+
+test/tshutdown.c,51
+#define	BUFF	3,18
+char	buff[buff4,38
+main(7,60
+
+test/tsnprintf.c,13
+main(16,408
+
+threads/example01.c,67
+#define	NLOOP 3,24
+int				counter;5,44
+main(10,116
+doit(25,376
+
+threads/example02.c,103
+#define	NLOOP 3,24
+int				counter;5,44
+pthread_mutex_t	counter_mutex 6,90
+main(11,175
+doit(26,435
+
+threads/example03.c,535
+#define	Pthread_mutex_lock(3,24
+#define	Pthread_mutex_unlock(8,178
+#define	Pthread_cond_wait(13,338
+#define	Pthread_cond_signal(18,499
+#define	NLOOP	24,657
+#define	BUFFSIZE	25,679
+struct buf_t 27,701
+  int		b_buf[b_buf28,716
+  int		b_nitems;29,786
+  int		b_nextget;30,838
+  int		b_nextput;31,856
+  pthread_mutex_t	b_mutex;32,874
+  pthread_cond_t	b_cond_consumer;33,901
+  pthread_cond_t	b_cond_producer;34,965
+} buf_t;35,1029
+main(41,1100
+produce(63,1754
+consume(83,2264
+produce_loop(107,2825
+consume_loop(120,3000
+
+threads/readline.c,274
+static pthread_key_t	rl_key;4,48
+static pthread_once_t	rl_once 5,77
+readline_destructor(8,141
+readline_once(14,201
+  int	 rl_cnt;20,294
+  char	*rl_bufptr;rl_bufptr21,333
+  char	 rl_buf[rl_buf22,381
+} Rline;23,406
+my_read(28,475
+readline(47,810
+Readline(78,1417
+
+threads/strclithread.c,80
+static int	sockfd;5,47
+static FILE	*fp;fp6,107
+str_cli(9,130
+copyto(24,414
+
+threads/strclithread2.c,102
+static int	sockfd;5,47
+static FILE	*fp;fp6,66
+static int	done;7,83
+str_cli(10,106
+copyto(28,452
+
+threads/tcpcli01.c,11
+main(4,22
+
+threads/tcpcli02.c,11
+main(4,22
+
+threads/tcpserv01.c,24
+main(6,98
+doit(30,612
+
+threads/tcpserv02.c,24
+main(6,98
+doit(31,628
+
+threads/test01.c,25
+myfunc(4,31
+main(10,68
+
+threads/test02.c,26
+myfunc(4,31
+main(18,239
+
+threads/test03.c,114
+int				ndone;5,61
+pthread_mutex_t	ndone_mutex 6,75
+pthread_cond_t	ndone_cond 7,132
+myfunc(10,194
+main(19,307
+
+threads/test04.c,60
+static char	*infile;infile5,47
+myfunc(8,117
+main(33,548
+
+threads/test05.c,39
+pthread_key_t	my_key;5,80
+main(8,107
+
+threads/unpthread.h,30
+#define	__unp_pthread_h5,123
+
+threads/web01.c,532
+#define	MAXFILES	5,86
+#define	SERV	6,106
+struct file 8,160
+  char	*f_name;f_name9,174
+  char	*f_host;f_host10,207
+  int    f_fd;11,254
+  int	 f_flags;12,289
+  pthread_t	 f_tid;13,325
+} file[file14,363
+#define	F_CONNECTING	15,381
+#define	F_READING	16,432
+#define	F_DONE	17,491
+#define	GET_CMD	19,526
+int		nconn,21,570
+int		nconn, nfiles,21,570
+int		nconn, nfiles, nlefttoconn,21,570
+int		nconn, nfiles, nlefttoconn, nlefttoread;21,570
+main(28,728
+do_get_read(82,1892
+write_get_cmd(114,2600
+home_page(129,2920
+
+threads/web02.c,614
+#define	MAXFILES	6,171
+#define	SERV	7,191
+struct file 9,245
+  char	*f_name;f_name10,259
+  char	*f_host;f_host11,292
+  int    f_fd;12,339
+  int	 f_flags;13,374
+  pthread_t	 f_tid;14,410
+} file[file15,448
+#define	F_CONNECTING	16,466
+#define	F_READING	17,517
+#define	F_DONE	18,576
+#define	F_JOINED	19,610
+int		nconn,21,662
+int		nconn, nfiles,21,662
+int		nconn, nfiles, nlefttoconn,21,662
+int		nconn, nfiles, nlefttoconn, nlefttoread;21,662
+char	get[get22,708
+int				ndone;24,768
+pthread_mutex_t	ndone_mutex 25,826
+main(32,995
+do_get_read(102,2796
+write_get_cmd(141,3726
+home_page(158,4083
+
+threads/web03.c,646
+#define	MAXFILES	4,67
+#define	SERV	5,87
+struct file 7,141
+  char	*f_name;f_name8,155
+  char	*f_host;f_host9,188
+  int    f_fd;10,235
+  int	 f_flags;11,270
+  pthread_t	 f_tid;12,306
+} file[file13,344
+#define	F_CONNECTING	14,362
+#define	F_READING	15,413
+#define	F_DONE	16,472
+#define	F_JOINED	17,506
+#define	GET_CMD	19,558
+int		nconn,21,602
+int		nconn, nfiles,21,602
+int		nconn, nfiles, nlefttoconn,21,602
+int		nconn, nfiles, nlefttoconn, nlefttoread;21,602
+int				ndone;23,649
+pthread_mutex_t	ndone_mutex 24,699
+pthread_cond_t	ndone_cond 25,756
+main(32,922
+do_get_read(97,2392
+write_get_cmd(132,3168
+home_page(145,3440
+
+traceroute/icmpcode_v4.c,18
+icmpcode_v4(4,33
+
+traceroute/icmpcode_v6.c,18
+icmpcode_v6(4,33
+
+traceroute/main.c,155
+struct proto	proto_v4 3,20
+struct proto	proto_v6 7,152
+int		datalen 11,294
+int		max_ttl 12,344
+int		nprobes 13,363
+u_short	dport 14,381
+main(17,415
+
+traceroute/recv_v4.c,16
+recv_v4(13,254
+
+traceroute/recv_v6.c,16
+recv_v6(13,254
+
+traceroute/sig_alrm.c,34
+int gotalarm;3,20
+sig_alrm(6,40
+
+traceroute/trace.h,884
+#define	BUFSIZE	7,126
+struct rec 9,149
+  u_short	rec_seq;10,200
+  u_short	rec_ttl;11,243
+  struct timeval	rec_tv;12,291
+char	 recvbuf[recvbuf16,361
+char	 sendbuf[sendbuf17,385
+int		 datalen;19,410
+char	*host;host20,471
+u_short	 sport,21,483
+u_short	 sport, dport;21,483
+int		 nsent;22,506
+pid_t	 pid;23,552
+int		 probe,24,581
+int		 probe, nprobes;24,581
+int		 sendfd,25,603
+int		 sendfd, recvfd;25,603
+int		 ttl,26,671
+int		 ttl, max_ttl;26,671
+int		 verbose;27,691
+struct proto 38,967
+  const char	*(*icmpcode)icmpcode39,982
+  int	 (*recv)recv40,1014
+  struct sockaddr  *sasend;sasend41,1053
+  struct sockaddr  *sarecv;sarecv42,1125
+  struct sockaddr  *salast;salast43,1184
+  struct sockaddr  *sabind;sabind44,1248
+  socklen_t   		salen;45,1317
+  int			icmpproto;46,1368
+  int	   ttllevel;47,1420
+  int	   ttloptname;48,1476
+} *pr;pr49,1533
+
+traceroute/traceloop.c,16
+traceloop(4,25
+
+traceroute/tv_sub.c,13
+tv_sub(4,23
+
+udpcksum/cleanup.c,14
+cleanup(5,50
+
+udpcksum/main.c,359
+struct sockaddr	*dest,dest5,76
+struct sockaddr	*dest, *local;local5,76
+struct sockaddr_in locallookup;6,107
+socklen_t		destlen,7,139
+socklen_t		destlen, locallen;7,139
+int		datalink;9,170
+char   *device;device10,229
+pcap_t *pd;pd11,265
+int		rawfd;12,316
+int		snaplen 13,359
+int		verbose;14,411
+int		zerosum;15,425
+main(20,517
+usage(111,2859
+
+udpcksum/pcap.c,54
+#define	CMD	4,47
+open_pcap(7,104
+next_pcap(51,1404
+
+udpcksum/senddnsquery-libnet.c,72
+static libnet_t *l;l10,167
+open_output(13,218
+send_dns_query(27,512
+
+udpcksum/senddnsquery-raw.c,23
+send_dns_query(10,148
+
+udpcksum/udpcksum.c,91
+static sigjmp_buf	jmpbuf;5,66
+static int			canjump;6,92
+sig_alrm(9,120
+test_udp(19,245
+
+udpcksum/udpcksum.h,24
+#define	TTL_OUT	13,271
+
+udpcksum/udpread.c,36
+udp_read(12,199
+udp_check(53,1106
+
+udpcksum/udpwrite.c,54
+int		rawfd;4,53
+open_output(7,102
+udp_write(29,590
+
+udpcliserv/dgcliaddr.c,13
+dg_cli(4,23
+
+udpcliserv/dgclibig.c,55
+#undef	MAXLINE3,18
+#define	MAXLINE 4,33
+dg_cli(7,61
+
+udpcliserv/dgcliconnect.c,13
+dg_cli(4,23
+
+udpcliserv/dgcliinetaddr.c,13
+dg_cli(4,23
+
+udpcliserv/dgcliloop1.c,52
+#define	NDG	3,18
+#define	DGLEN	4,60
+dg_cli(7,115
+
+udpcliserv/dgcliloop3.c,55
+#define	NDG	6,123
+#define	DGLEN	7,166
+dg_cli(10,222
+
+udpcliserv/dgecholoop1.c,58
+static int	count;4,49
+dg_echo(7,73
+recvfrom_int(23,313
+
+udpcliserv/dgecholoop2.c,58
+static int	count;4,49
+dg_echo(7,73
+recvfrom_int(27,400
+
+udpcliserv/sigchldwaitpid.c,15
+sig_chld(4,23
+
+udpcliserv/udpcli01.c,11
+main(4,22
+
+udpcliserv/udpcli02.c,11
+main(4,22
+
+udpcliserv/udpcli03.c,11
+main(4,22
+
+udpcliserv/udpcli04.c,11
+main(4,22
+
+udpcliserv/udpcli05.c,11
+main(4,22
+
+udpcliserv/udpcli06.c,11
+main(4,22
+
+udpcliserv/udpcli08.c,11
+main(4,22
+
+udpcliserv/udpcli09.c,11
+main(4,22
+
+udpcliserv/udpcli10.c,11
+main(4,22
+
+udpcliserv/udpserv01.c,11
+main(4,22
+
+udpcliserv/udpserv06.c,11
+main(4,22
+
+udpcliserv/udpserv07.c,11
+main(4,22
+
+udpcliserv/udpservselect01.c,11
+main(5,52
+
+unixdomain/daytimetcpcli.c,11
+main(4,22
+
+unixdomain/daytimetcpsrv2.c,11
+main(5,40
+
+unixdomain/mycat.c,11
+main(6,56
+
+unixdomain/myopen.c,14
+my_open(4,22
+
+unixdomain/openfile.c,11
+main(4,22
+
+unixdomain/readcred.c,42
+#define	CONTROL_LEN	3,18
+read_cred(6,98
+
+unixdomain/sigchldwaitpid.c,15
+sig_chld(4,23
+
+unixdomain/strecho.c,15
+str_echo(6,83
+
+unixdomain/testfcred.c,11
+main(5,64
+
+unixdomain/tfcred01.c,60
+main(7,121
+#define	CONTROL_LEN	47,1173
+recv_cred(50,1250
+
+unixdomain/unixbind.c,11
+main(4,22
+
+unixdomain/unixdgcli01.c,11
+main(4,22
+
+unixdomain/unixdgserv01.c,11
+main(4,22
+
+unixdomain/unixstrcli01.c,11
+main(4,22
+
+unixdomain/unixstrserv01.c,11
+main(4,22
+
+unixdomain/unixstrserv02.c,11
+main(4,22
+
+test/test.h,0
+
+streams/tpi_daytime.h,0
+
+ssntp/sntp.h,0
