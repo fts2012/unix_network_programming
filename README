@@ -11,7 +11,7 @@ Execute the following from the src/ directory:
     cd ../libfree  # continue building the basic library
     make
     # add by qzi {
-     # change "size_t size;"  ==> "socklen_t size;" at line 61 at file named " inet_ntop.c 
+     # change "size_t size;"  ==> "socklen_t size;" at line 61 at file named " inet_ntop.c on mac ox 1.6.8
     # } end
     cd ../libroute # only if your system supports 4.4BSD style routing sockets
     make           # only if your system supports 4.4BSD style routing sockets
