@@ -20,7 +20,13 @@ Execute the following from the src/ directory:
     make           # only if your system supports XTI
 
     cd ../intro    # build and test a basic client program
-    make daytimetcpcli
+    # add by qzi {
+      make daytimetcpcli
+      make daytimetcpsrv
+      ./daytimetcpsrv
+      # open another terminal
+    # } end
+
     ./daytimetcpcli 127.0.0.1
 
 If all that works, you're all set to start compiling individual programs.
